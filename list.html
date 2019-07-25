@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edsge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>home</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Varela+Round" rel="stylesheet">
+    <link href="css/main.min.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+  <body>
+    <header class="c-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="c-header__link"><a href="#"><img class="c-header__brand" src="img/seguros_cencosud-brand.png"></a></div>
+            <div class="c-header__sesion"><a class="c-header__btn c-header__btn--login" href="#loginModal">Iniciar Sesión</a><a class="c-header__btn c-header__btn--help" href="#">Te ayudamos</a></div>
+            <div class="c-header__service"><span>Servicio al cliente</span><a href="tel:+5626005005000">600 500 5000</a></div>
+            <div class="c-header__toogle"><a class="c-header__menu" id="menu-mobile" href="#" state="0"></a></div>
+            <div class="c-header__mobile-buttons"><a class="c-header__btn-mobile c-header__btn-mobile--call" href="tel:6005005000"><i></i></a><a class="c-header__btn-mobile c-header__btn-mobile--user" href="#loginModal"><i></i></a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="c-nav">
+      <ul class="c-nav__items">
+        <li class="c-nav__item--closeMenu u-hidemobile"><a id="close_menu" href="#"><i class="mx-cancel"></i></a></li>
+        <li class="c-nav__item"><a class="c-nav__link" href="#">Inicio</a></li>
+        <li class="c-nav__item"><a class="c-nav__link js-nav-mobile" href="#">Vehículo<i class="mx-chevron-down"> </i></a>
+          <ul class="c-nav__sub">
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Seguro Auto Full Cobertura</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Full Cobertura Auto Play</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Pérdida Total</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Seguro Obligatorio Mercosur</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">SOAP</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Moto</a></li>
+          </ul>
+        </li>
+        <li class="c-nav__item"><a class="c-nav__link js-nav-mobile" href="#">Soap<i class="mx-chevron-down"> </i></a></li>
+        <li class="c-nav__item"><a class="c-nav__link js-nav-mobile" href="#">Viajes<i class="mx-chevron-down"></i></a>
+          <ul class="c-nav__sub">
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Seguro de viajes</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Seguro Obligatorio Mercosur  </a></li>
+          </ul>
+        </li>
+        <li class="c-nav__item"><a class="c-nav__link" href="#">Vida y Salud</a></li>
+        <li class="c-nav__item"><a class="c-nav__link" href="#">Hogar</a>
+          <ul class="c-nav__sub">
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Hogar vacaciones</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Incendio + Sismo/Estructura</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Incendio + Sismo/Contenido</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Incendio + Robo</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Incendio + Robo + Sismo</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Hogar Premio a la permanencia</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Hogar Full Asistencia</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Seguro Mascota</a></li>
+          </ul>
+        </li>
+        <li class="c-nav__item"><a class="c-nav__link" href="#">Fraude</a>
+          <ul class="c-nav__sub">
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Seguro fraude</a></li>
+            <li class="c-nav__subitem"><a class="c-nav__link" href="#">Fraude con Premio a la permanencia</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <main role="main">
+      <section class="tabsmix list">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="o-box o-box--tabs o-box--layer u-no-margin-bottom u-bdr_n u-r-pad20 u-no-margin-992">
+                <div class="undiv">
+                  <div class="wrapper">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="o-features__featTitle">
+                          <h2 class="u-text-center">Listado HTML</h2>
+                          <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="detail.html">Detalle Seguro</a></li>
+                            <li><a href="landing.html">Seguros Landing</a></li>
+                            <li><a href="compare.html">Cotización</a></li>
+                            <li><a href="quotation_step1.html">Cotización Paso 1</a></li>
+                            <li><a href="quotation_step2.html">Cotización Paso 2</a></li>
+                            <li><a href="quotation_step3.html">Cotización Paso 3</a></li>
+                            <li><a href="recruiting_step1.html">Contratación Paso 1</a></li>
+                            <li><a href="recruiting_step1.html">Contratación Paso 2</a></li>
+                            <li><a href="recruiting_step1.html">Contratación Paso 3</a></li>
+                            <li><a href="recruiting_step1.html">Contratación Paso 4</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="c-socialbar u-ptb20">
+      <div class="c-socialbar__social"><span class="c-socialbar__text">Síguenos en</span><a class="c-socialbar__link c-socialbar__link--twitter" href="#"><i class="c-socialbar__icon mx-twitter"></i></a><a class="c-socialbar__link c-socialbar__link--youtube" href="#"><i class="c-socialbar__icon mx-youtube"></i></a><a class="c-socialbar__link c-socialbar__link--facebook" href="#"><i class="c-socialbar__icon mx-facebook"></i></a></div>
+      <div class="c-socialbar__phone"><span>Servicio al cliente</span><br><a href="tel:+5626005005000">600 500 5000</a></div>
+    </div>
+    <footer class="c-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <ul class="o-list o-list--links">
+              <li class="o-list__item o-list__item--parent"><a class="o-list__link js-toogle" href="#" state="0"><strong>Te ayudamos</strong></a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Preguntas Frecuentes</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">En caso de siniestro</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Sucursales</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Pólizas</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Glosario</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Acumulas Puntos Cencosud</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Contáctanos</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="o-list o-list--links">
+              <li class="o-list__item o-list__item--parent"><a class="o-list__link js-toogle" href="#" state="0"><strong>Políticas de sitio</strong></a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Nuestra Empresa</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Políticas de Seguridad</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Términos y condiciones</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="o-list o-list--links">
+              <li class="o-list__item o-list__item--parent"><a class="o-list__link js-toogle" href="#" state="0"><strong>Información</strong></a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Superintendencia de Valores y Seguros</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Bases de promociones</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Seguro de Crédito de Consumo</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Contratación Voluntaria</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Denuncias Ley Nº20.393</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="o-list o-list--links">
+              <li class="o-list__item o-list__item--parent"><a class="o-list__link js-toogle" href="#" state="0"><strong>Cencosud</strong></a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Tarjeta Scotiabank Cencosud</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Puntos Cencosud</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Paris</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Jumbo</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Easy</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Johnson</a></li>
+              <li class="o-list__item"><a class="o-list__link" href="#">Santa Isabel</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="c-payments">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 u-text-center">
+            <p class="c-payments__text">Medios de Pago:</p><a class="c-payments__link" href=""><img class="c-payments__image" src="img/payments-cards.png" alt=""></a><a class="c-payments__link" href=""><img class="c-payments__image" src="img/payments-webpay.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/libs/bundle.js"></script>
+    <script src="js/libs/slick.min.js"></script>
+    <script src="js/libs/jquery.responsiveTabs.js"></script>
+    <script src="js/libs/remodal.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
